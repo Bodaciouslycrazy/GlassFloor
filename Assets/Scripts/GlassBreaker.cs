@@ -15,7 +15,7 @@ public class GlassBreaker : MonoBehaviour {
 	
 	void OnCollisionEnter( Collision col ){
 		//do stuff
-		if(col.gameObject.tag == "Player"){
+		if(col.gameObject.tag == "Falling"){
 			Destroy( gameObject );
 		}
 	}
